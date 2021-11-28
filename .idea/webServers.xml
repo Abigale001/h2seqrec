@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ssh://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HyperRec/bin/python" name="ssh://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HyperRec/bin/python">
+        <fileTransfer host="59.172.63.2" port="22122" accessType="SFTP">
+          <option name="port" value="22122" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

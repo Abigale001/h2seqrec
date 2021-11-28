@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ssh://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HyperRec/bin/python" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="ssh://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HyperRec/bin/python">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data1/home/ideatmp/sigir21/project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@ssh://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HyperRec/bin/python" />
+        <remote-mappings server-id="python@sftp://ideatmp@59.172.63.2:22122/data1/home/ideatmp/miniconda3/envs/HGN/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/data1/home/ideatmp/sigir21/github" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
