@@ -19,7 +19,7 @@ python==3.6.13
 ~~~
 
 
-##Run steps
+## Run steps
 1. Pre-training phase (three contrastive pre-training tasks)<br>
 a. Run pre-training 
 
