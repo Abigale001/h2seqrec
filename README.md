@@ -2,6 +2,7 @@
 
 ## Paper
 [Hyperbolic Hypergraphs for Sequential Recommendation](https://arxiv.org/pdf/2108.08134.pdf)
+[code on OneDrive](https://1drv.ms/u/s!Akl-Km1xbm7loVnoRQjDbm5eUUS0?e=KNawUx)
 
 ## Environment
 Recommendation Environment
