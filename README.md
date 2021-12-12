@@ -32,19 +32,19 @@ b. Copy the output pre-training embedding to `HGCN/data/AMT/use_pretrain/` folde
 a. Prepare dataset.<br>
 Split the dataset into monthly, quarterly and yearly dataset. 
 For example, if the dataset contains 12 months, 
-the `data/month` folder has 12 csv files, 
-the `data/quarter` folder has 4 csv files 
-and the `data/year` folder has 1 csv file. 
+the `HGCN/data/month` folder will have 12 csv files, 
+the `HGCN/data/quarter` folder will have 4 csv files 
+and the `HGCN/data/year` folder will have 1 csv file. 
 The format of each line is as follows. 
 `node1_id node2_id`.
 The nodes within each hyperedge are considered connected with each other. 
-The `config.py` file is the configuration file.<br>
+The `HGCN/config.py` file is the configuration file.<br>
 b. Modify parameters. <br>
-Taking the monthly hyperbolic hypergraph embedding learning as an example,
+Taking the monthly hyperbolic hypergraph embedding learning as an example, in `HGCN/train.py`
 change the `pre-training embedding` name in line 195, and modify the `time_list` in line 200.
 Supposing there are 12 months, the `time_list` should be `range(1,13)`.<br>
 c. Run hyperbolic hypergraph neural network.<br>
-`python train.py --dataset AMT`<br>
+`python HGCN/train.py --dataset AMT`<br>
 P.S. Run monthly, quarterly, yearly hyperbolic hypergraph neural network seperately.
 The steps are the same, but parameters should be modified.
 
