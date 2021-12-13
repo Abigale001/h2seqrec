@@ -8,10 +8,10 @@
 Recommendation Environment
 ~~~
 python==3.6.12
-pytorch==1.9.0<br>
-numpy==1.17.5<br>
-scikit-learn==0.24.2<br>
-scipy==1.5.4 <br>
+pytorch==1.9.0
+numpy==1.17.5
+scikit-learn==0.24.2
+scipy==1.5.4 
 ~~~
 Hyperbolic Hypergraph Neural Network Environment
 ~~~
